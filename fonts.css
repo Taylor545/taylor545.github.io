@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'Avenir';
+	src:
+	url('fonts/avenir-book.woff') format('woff'),
+	url('fonts/avenir-book.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}

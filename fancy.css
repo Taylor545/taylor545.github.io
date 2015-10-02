@@ -1,0 +1,43 @@
+/* FANCYBOX CSS */
+
+#video4{
+	display: none;
+}
+
+.thumbnail {
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	/* margin: 0px 10px 40px 50px; */
+	margin: 20px 30px;
+	padding: 0px;
+	overflow: hidden;
+	box-shadow: 0px 0px 15px 0px #888;
+}
+
+.fancybox>img {
+	width: 150px; height: 150px;
+	margin: 20px 30px;
+	box-shadow: 0px 0px 15px 0px #888;
+}
+
+.thumbnail img {
+	width: auto;
+	height: 100%;
+	
+	/* Center Image */
+	position: relative;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.fancybox img:hover{
+	opacity: .7;
+}
+
+.fancybox-inner {
+	font-size: 0; /* Removes scrollbars on video */
+}
