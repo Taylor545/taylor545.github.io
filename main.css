@@ -49,9 +49,8 @@ a {
 }
 
 .wordmark span {
-	display: inline-block;
+	display: block;
 	color: transparent; /* Hide text */
-	width: 650px;
 	height: 100px;
 	background: url('media/wordmark.png') no-repeat;
 	background-origin: content-box;
