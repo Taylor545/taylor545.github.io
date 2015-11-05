@@ -1,5 +1,5 @@
 $(document).ready(function() {
-   $(".fancybox").attr('rel', 'gallery').fancybox({
+   $(".fancybox").fancybox({
       helpers: {title: {type: 'inside'}}
    });
    $(".fancyvideo").fancybox({
